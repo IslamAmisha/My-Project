@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      .box1 {
+        width: 1512px;
+        height: 70px;
+        background-color: rgb(221, 189, 102);
+      }
+
+      .box2 {
+        position: absolute;
+        left: 370px;
+        top: 1px;
+      }
+
+      .box3 {
+        position: absolute;
+        left: 290px;
+      }
+      .box4 {
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .box5 {
+        margin-left: 550px;
+      }
+
+      .box5 a {
+        display: inline-block;
+      }
+
+      .box5 a:hover {
+        background-color: red;
+        border-radius: 0px 15px 0px 15px;
+      }
+
+      .box6 {
+        font-family: "Courier New", Courier, monospace;
+        font-size: x-large;
+
+        position: absolute;
+        top: 155px;
+        left: 600px;
+      }
+      .box7 {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: -10px;
+        left: 100px;
+      }
+
+      .halfscreen {
+        width: 1512px;
+        height: 200px;
+        margin-top: 40px;
+      }
+
+      .box8 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: xx-large;
+        width: 500px;
+        color: rgb(63, 57, 57);
+        margin: 80px 300px;
+      }
+      .box9 {
+        width: 600px;
+        margin: -40px 300px;
+        display: flex;
+      }
+      .title {
+        margin-left: 80px;
+      }
+
+      .box {
+        width: 220px;
+        border: rgb(55, 50, 50) solid;
+        height: 30px;
+        margin: 40px -45px;
+        border-radius: 0px 20px;
+      }
+      .boxemail {
+        width: 220px;
+        border: rgb(61, 58, 58) solid;
+        height: 30px;
+        margin: 40px -100px;
+        border-radius: 0px 20px;
+      }
+
+      .box10 {
+        width: 600px;
+        margin: 20px 300px;
+      }
+      .sub {
+        width: 480px;
+        border: rgb(55, 50, 50) solid;
+        height: 30px;
+        margin: 10px 4px;
+        border-radius: 0px 20px;
+      }
+      .box11 {
+        width: 600px;
+        margin: 20px 300px;
+      }
+      .message {
+        width: 480px;
+        border: rgb(55, 50, 50) solid;
+        height: 100px;
+        margin: 10px 4px;
+        border-radius: 0px 20px;
+      }
+      .button {
+        width: 130px;
+        height: 30px;
+        margin: 20px 300px;
+        border-radius: 0px 20px;
+        background: rgb(240, 62, 62);
+        color: white;
+        font-family: monospace;
+      }
+      .info {
+        width: 500px;
+        height: 350px;
+        background: rgb(249, 99, 99);
+        color: white;
+        margin-top: -490px;
+        margin-left: 850px;
+        border-radius: 0px 50px 0px 100px;
+      }
+      .inside {
+        width: 500px;
+        padding: 20px;
+      }
+      .img1 {
+        margin: -5px 25px;
+      }
+      .mail {
+        margin: -17px 50px;
+        color: yellow;
+      }
+
+      .img2 {
+        width: 20px;
+        margin: 25px 20px;
+      }
+      .num {
+        margin: -50px 50px;
+      }
+      .img3 {
+        width: 20px;
+        margin: 58px 20px;
+      }
+      .location {
+        margin: -80px 50px;
+      }
+      .map {
+        margin: 200px 0px;
+      }
+
+      .box17 {
+        width: 1512px;
+        height: 350px;
+        background-color: #3f2b2be0;
+        margin-top: -202px;
+      }
+      .leftbox2 {
+        width: 450px;
+        display: flex;
+      }
+      .paw {
+        width: 70px;
+        height: 70px;
+        margin: 60px 320px;
+      }
+
+      .box18 {
+        margin: 50px -320px;
+      }
+      .box19 {
+        margin-left: -50px;
+      }
+
+      .box20 {
+        width: 200px;
+        margin: -180px 850px;
+      }
+      .msg {
+        position: absolute;
+        left: 830px;
+        top: 1446px;
+      }
+
+      .box21 {
+        width: 200px;
+        margin: 80px 1100px;
+      }
+      .working {
+        position: absolute;
+        left: 1085px;
+        top: 1450px;
+      }
+
+      .copy {
+        display: flex;
+        justify-content: center;
+      }
+
+      @media only screen and (max-width: 650px) {
+        .box1,
+        .box2,
+        .box3,
+        .box4,
+        .box5,
+        .box5 a,
+        .box5 a:hover,
+        .box6,
+        .box7,
+        .halfscreen,
+        .box8,
+        .box9,
+        .title,
+        .box,
+        .boxemail,
+        .box10,
+        .sub,
+        .box11,
+        .message,
+        .button,
+        .info,
+        .inside,
+        .img1,
+        .mail,
+        .img2,
+        .num,
+        .img3,
+        .location,
+        .map,
+        .box17,
+        .leftbox2,
+        .paw,
+        .box18,
+        .box19,
+        .box20,
+        .msg,
+        .box21,
+        .working,
+        .copy {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1" style="color: white">
+      <div class="box3">
+        <img src="imageedit_1_6297517289.png" alt="image" />
+      </div>
+      <div class="box2"><h1>WOOF!</h1></div>
+
+      <div class="box4">
+        <div class="box5">
+          <a href="index.html" style="color: white"><h3>Home</h3></a>
+          &emsp;
+          <a href="Service.html" style="color: white"><h3>Service</h3></a>
+          &emsp;
+          <a href="About.html" style="color: white"><h3>About</h3></a>
+          &emsp;
+          <a href="Contact.html" style="color: white"><h3>Contact</h3></a>
+          &emsp;
+          <a href="Gallery.html" style="color: white"><h3>Gallery</h3></a>
+          &emsp;
+          <a href="Adopt.html" style="color: white"><h3>Adopt</h3></a>
+        </div>
+      </div>
+    </div>
+
+    <img class="halfscreen" src="dogcat2.png" alt="img" />
+    <div class="box6">
+      <img class="box7" src="paw.png" alt="image" />
+      <h1 style="color: white">Contact Us</h1>
+    </div>
+
+    <div class="box8">Send us a message</div>
+
+    <form class="box9">
+      <label for="">Name*</label>
+
+      <input
+        class="box"
+        type="text"
+        name="name"
+        id=""
+        placeholder=""
+        required
+      />
+
+      <label class="title" for=""> Email Address*</label>
+      <br />
+      <input
+        class="boxemail"
+        type="text"
+        name="email"
+        id=""
+        placeholder=""
+        required
+      />
+    </form>
+
+    <form class="box10">
+      <label for="">Subject</label>
+      <br />
+      <input
+        class="sub"
+        type="text"
+        name="Subject"
+        id=""
+        placeholder=""
+        required
+      />
+    </form>
+
+    <form class="box11">
+      <label for="">Message*</label>
+      <br />
+      <input
+        class="message"
+        type="text"
+        name="message"
+        id=""
+        placeholder=""
+        required
+      />
+    </form>
+
+    <button class="button">SEND MESSAGE</button>
+
+    <div class="info">
+      <div class="inside">
+        <h1>Information</h1>
+        <p>
+          Mei te apeirian amittantur reformidans,duo in appetere interesset
+          concludaturque.Est eruditi erroribus liberavisse in.
+        </p>
+      </div>
+      <div>
+        <img class="img1" src="email.png" alt="image" />
+        <p class="mail">email@yoursite.com</p>
+      </div>
+      <div>
+        <img class="img2" src="phone.png" alt="image" />
+        <p class="num"><b>(123) 456-789</b></p>
+      </div>
+      <div>
+        <img class="img3" src="location-pin.png" alt="image" />
+        <p class="location"><b>Pet Street,123-New York</b></p>
+      </div>
+    </div>
+
+    <iframe
+      class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.170754689414!2d2.3536302759614465!3d48.854954200949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fd46fcc575%3A0xc902de577558f506!2sM%C3%A9morial%20de%20la%20Shoah!5e0!3m2!1sen!2sin!4v1703394479951!5m2!1sen!2sin"
+      width="1512"
+      height="400"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <div class="box17" style="color: white">
+      <div class="leftbox2">
+        <img class="paw" src="imageedit_1_6297517289.png" alt="image" />
+        <div class="box18">
+          <h1>WOOF!</h1>
+          <p class="box19">
+            Cras enim wisi elit aenean,amet eros curabitur.Wisi ad eget ipsum
+            metus saciis.Cras enim wisi elit aenean.
+          </p>
+        </div>
+      </div>
+
+      <div class="box20">
+        <img class="msg" src="email.png" alt="image" />
+        <h2><b>Contact us</b></h2>
+        <p>
+          (123) 456-789
+          <br />
+          email@yoursite.com
+          <br />
+          Pet Street 123-New York
+        </p>
+      </div>
+
+      <div class="box21">
+        <img class="working" src="clock.png" alt="image" />
+        <h2><b>Working Hours</b></h2>
+        <p>
+          Open 9am - 10pm
+          <br />
+          Holidays-Closed
+          <br />
+          Weekends-Closed
+        </p>
+      </div>
+
+      <div class="copy">
+        &copy 2023 Woof! Developed by Amisha | All right reserved.
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      .box1 {
+        width: 1512px;
+        height: 70px;
+        background-color: rgb(221, 189, 102);
+      }
+
+      .box2 {
+        position: absolute;
+        left: 370px;
+        top: 1px;
+      }
+      .box3 {
+        position: absolute;
+        left: 290px;
+      }
+
+      .box4 {
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .box5 {
+        margin-left: 550px;
+      }
+
+      .box5 a {
+        display: inline-block;
+      }
+
+      .box5 a:hover {
+        background-color: red;
+        border-radius: 0px 15px 0px 15px;
+      }
+
+      .box6 {
+        font-family: "Courier New", Courier, monospace;
+        width: 305px;
+        height: 230px;
+        position: absolute;
+        left: 250px;
+        top: 260px;
+        background-color: rgba(255, 255, 255, 0.683);
+        border-radius: 0px 30px 0px 20px;
+      }
+
+      .box6 a button {
+        border-radius: 0px 10px;
+      }
+
+      .box7 {
+        position: absolute;
+        bottom: 180px;
+        right: 242px;
+      }
+
+      .fullscreen {
+        display: block;
+        width: 1512px;
+        height: 650px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .box15 {
+        width: 1512px;
+        height: 350px;
+        background-color: #3f2b2be0;
+        margin-top: 80px;
+      }
+      .leftbox {
+        width: 450px;
+        display: flex;
+        margin: -80px;
+      }
+      .paw {
+        width: 70px;
+        height: 70px;
+        margin: 60px 320px;
+      }
+
+      .box16 {
+        margin: 50px -320px;
+      }
+      .box17 {
+        margin-left: -50px;
+      }
+
+      .box18 {
+        width: 200px;
+        margin: -180px 850px;
+      }
+      .msg {
+        position: absolute;
+        left: 830px;
+        top: 807px;
+      }
+
+      .box19 {
+        width: 200px;
+        margin: 80px 1100px;
+      }
+      .working {
+        position: absolute;
+        left: 1085px;
+        top: 809px;
+      }
+
+      .copy {
+        display: flex;
+        justify-content: center;
+      }
+
+      @media only screen and (max-width: 620px) {
+        .box1,
+        .box2,
+        .box3.box4,
+        .box5,
+        .box5 a,
+        .box5 a:hover,
+        .box6,
+        .box6 a button,
+        .box7,
+        .fullscreen,
+        .box15,
+        .leftbox,
+        .paw,
+        .box16,
+        .box17,
+        .box18,
+        .msg,
+        .box19,
+        .working,
+        .copy {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1" style="color: white">
+      <div class="box3">
+        <img src="imageedit_1_6297517289.png" alt="image" />
+      </div>
+      <div class="box2"><h1>WOOF!</h1></div>
+
+      <div class="box4">
+        <div class="box5">
+          <a href="index.html" style="color: white"><h3>Home</h3></a>
+          &emsp;
+          <a href="Service.html" style="color: white"><h3>Service</h3></a>
+          &emsp;
+          <a href="About.html" style="color: white"><h3>About</h3></a>
+          &emsp;
+          <a href="Contact.html" style="color: white"><h3>Contact</h3></a>
+          &emsp;
+          <a href="Gallery.html" style="color: white"><h3>Gallery</h3></a>
+          &emsp;
+          <a href="Adopt.html" style="color: white"><h3>Adopt</h3></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="box6" style="text-align: center">
+      <div class="box7">
+        <img src="imageedit_13_3722655447.png" alt="image" />
+      </div>
+      <h1>Visit our Pet Hotel</h1>
+      <p>Our facility is designed to meet the unique needs of your pet</p>
+      <a href="Service.html"
+        ><button style="background-color: red">Our Service</button></a
+      >
+    </div>
+    <img
+      class="fullscreen"
+      src="tamara-bellis-WrUGxeL-Hgs-unsplash.jpg"
+      alt="image"
+    />
+
+    <div class="box15" style="color: white">
+      <div class="leftbox">
+        <img class="paw" src="imageedit_1_6297517289.png" alt="image" />
+        <div class="box16">
+          <h1>WOOF!</h1>
+          <p class="box17">
+            Cras enim wisi elit aenean,amet eros curabitur.Wisi ad eget ipsum
+            metus saciis.Cras enim wisi elit aenean.
+          </p>
+        </div>
+      </div>
+
+      <div class="box18">
+        <img class="msg" src="email.png" alt="image" />
+        <h2><b>Contact us</b></h2>
+        <p>
+          (123) 456-789
+          <br />
+          email@yoursite.com
+          <br />
+          Pet Street 123-New York
+        </p>
+      </div>
+
+      <div class="box19">
+        <img class="working" src="clock.png" alt="image" />
+        <h2><b>Working Hours</b></h2>
+        <p>
+          Open 9am - 10pm
+          <br />
+          Holidays-Closed
+          <br />
+          Weekends-Closed
+        </p>
+      </div>
+
+      <div class="copy">
+        &copy 2023 Woof! Developed by Amisha | All right reserved.
+      </div>
+    </div>
+  </body>
+</html>
